@@ -1,0 +1,6 @@
+{
+  "provider": "Ollama",
+  "model": "qwen3-coder:30b",
+  "baseUrl": "http://127.0.0.1:11434",
+  "note": "Use these values in Dyad AI provider settings. This file is documentation and is not automatically consumed by the website runtime."
+}

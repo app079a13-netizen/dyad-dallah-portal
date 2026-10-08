@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1780046574790,
+      "tag": "0000_tearful_newton_destine",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1780058547617,
+      "tag": "0001_polite_rumiko_fujikawa",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1780060291421,
+      "tag": "0002_odd_catseye",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1780071850456,
+      "tag": "0003_perpetual_scourge",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1780073140987,
+      "tag": "0004_normal_doorman",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1780074415195,
+      "tag": "0005_concerned_bromley",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1780162601135,
+      "tag": "0006_many_skreet",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1783223079739,
+      "tag": "0007_reflective_johnny_storm",
+      "breakpoints": true
+    }
+  ]
+}
