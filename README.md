@@ -108,6 +108,12 @@ The envs above are system envs, when use env in website code, refer `server/_cor
 
 ---
 
+## Creating the admin account
+
+Set `ADMIN_PASSWORD` (required, at least 8 characters) and optionally `ADMIN_USERNAME` (defaults to `admin`) as Railway variables for the service, then run `node scripts/create-admin.mjs` in the Railway environment (for example with `railway run node scripts/create-admin.mjs`). The script also needs `DATABASE_URL`. Never commit a password to the repository, and remove `ADMIN_PASSWORD` from the variables once the account has been created.
+
+---
+
 ## Frontend Workflow
 
 1. Choose a design style before you write any frontend code according to Design Guide (color, font, shadow, art style). Remember to edit `client/src/index.css` for global theming and add needed font using google font cdn in `client/index.html`.
