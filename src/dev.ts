@@ -15,4 +15,5 @@ if (values.port !== undefined) {
   process.env.PORT = String(port);
 }
 
+console.log(`[Startup] Loading app on port ${process.env.PORT || "3000"}`);
 await import("../server/_core/index");
