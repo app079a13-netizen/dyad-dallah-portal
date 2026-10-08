@@ -51,14 +51,24 @@ async function startServer() {
     serveStatic(app);
   }
 
-  const preferredPort = parseInt(process.env.PORT || "3000");
-  const port = await findAvailablePort(preferredPort);
+  const portArgumentIndex = process.argv.indexOf("--port");
+  const portArgument = portArgumentIndex === -1
+    ? process.argv.find(argument => argument.startsWith("--port="))?.slice(7)
+    : process.argv[portArgumentIndex + 1];
+  const configuredPort = portArgument ?? process.env.PORT;
+  const preferredPort = Number(configuredPort ?? "3000");
+  if (!Number.isInteger(preferredPort) || preferredPort < 1 || preferredPort > 65535) {
+    throw new Error("Port must be an integer between 1 and 65535");
+  }
+  const port = configuredPort === undefined
+    ? await findAvailablePort(preferredPort)
+    : preferredPort;
 
   if (port !== preferredPort) {
     console.log(`Port ${preferredPort} is busy, using port ${port} instead`);
   }
 
-  server.listen(port, () => {
+  server.listen(port, "0.0.0.0", () => {
     console.log(`Server running on http://localhost:${port}/`);
   });
 }
