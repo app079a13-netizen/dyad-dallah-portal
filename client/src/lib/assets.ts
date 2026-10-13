@@ -21,6 +21,6 @@ export const ASSETS = {
   // صور خطوات شراء Razer Gold من تطبيق الراجحي
   razerStep1Lifestyle: "/manus-storage/razer-step1-rajhi-app_cda0dba2.jpg",
   razerStep2Search: "/manus-storage/razer-step2-rajhi-search_b595df93.jpg",
-  razerStep3Select: "https://d36hbw14aib5lz.cloudfront.net/310519663708813465/G9WATryya7xhtY6UKtB3cZ/razer-step3-select-100_388daf81.png?Expires=1791912372&Signature=SOwr1UvaOZ0Jytz0rFZQodujFQ3Y4gzpTOOBgAVLASAmSJeQCLTu1RalMCq1ZKv3~1BTxjUDbbYgG6wShHLKsqQ1~ZBqOpsYxbD0OwqEJ0Bd0aygH64D-ggroRCl~KDpb2nvaK2FHzA6oEXVVjymCh3o9KDIVZ8BD3uFGZgTKNM3Vr52wywwAtLnoItWjdvfgJKu9XtJT4W3P3cvhwALPGrp7N2WsMryhFNwuN927O4XhFw8-Tr4~BicjC2LgBaapuT4n7WehW-d0tPQkXN7-~Hs08cgIT0kO5fv50Yci1E~4ho7OTPXdibkBNs44EkIu0WsiaRRffjTr8~EzobJjw__&Key-Pair-Id=K1MP89RTKNH4J",
+  razerStep3Select: "/manus-storage/razer-step3-select-100_388daf81.png",
   razerStep4Sms: "/manus-storage/razer-step4-pin-code_2344939c.jpg",
 } as const;
